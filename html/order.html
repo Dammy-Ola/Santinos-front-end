@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">Javascript</a></li>
+              <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+
+    <div class="tb-space"></div>
+    <section id="order">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="tb-card">
+              <div class="tb-card-img">
+                <img src="../img/barbecue-bbq-beef-brown-236887.jpg" alt="" />
+              </div>
+              <div class="tb-card-content">
+                <p>Product name</p>
+                <p>Ghs <span id="cal_total"> 50 </span></p>
+                <p style="display: none;">Ghs <span id="price"> 50 </span></p>
+                <p>
+                  <div class="input-field" id="how_many">
+                    <input
+                      value="1"
+                      id="qty"
+                      type="text"
+                      class="validate"
+                    />
+                    <label for="qty">How many are you ordering</label>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="tb-card">
+              <div class="tb-card-content">
+                  <p class="tb-text-center">Your Order Information</p>
+                  <div class="input-field">
+                    <input
+                      placeholder="first name"
+                      id="first_name"
+                      type="text"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="input-field">
+                    <input
+                      placeholder="last name"
+                      id="last_name"
+                      type="text"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="input-field">
+                    <input
+                      placeholder="Phone Number"
+                      id="phone_number"
+                      type="number"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="input-field">
+                    <input
+                      placeholder="Email"
+                      id="phone_number"
+                      type="email"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="input-field">
+                    <input
+                      placeholder="Location"
+                      id="location"
+                      type="text"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="tb-text-center">
+                    <a href="thank_you.html" class="tb-btn">Place An Order</a>
+                    <!-- <button type="submit" class="tb-btn">Place An Order</button> -->
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer> 
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.modal').modal();
+      });
+    </script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
