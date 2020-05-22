@@ -7,19 +7,54 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/style.min.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <div class="container">
+              <a href="#!" class="brand-logo">Santinos</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                ><i class="material-icons">menu</i></a
+              >
+              <!-- <a
+                href="#"
+                data-target="mobile-demo"
+                class="sidenav-trigger right"
+                ><i class="material-icons">menu</i></a
+              > -->
+              <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Home</a></li>
+                <li><a href="badges.html">About</a></li>
+                <li><a href="collapsible.html">Menus</a></li>
+                <li><a href="mobile.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
       <section id="tb-showcase">
         <div class="tb-showcase-img">
           <!-- <img src="../img/barbecue-bbq-beef-brown-236887.jpg" alt="" /> -->
         </div>
         <div class="tb-showcase-content">
-          <!-- <h1>Santinos Meat</h1> -->
-          <h1>HELLO</h1>
-          <p>Where Meat are made</p>
+          <h1>Santinos Meat</h1>
+          <!-- <h1>HELLO</h1> -->
+          <p>Where Meats are made</p>
           <a href="#about" class="tb-btn">Place an Order</a>
         </div>
       </section>
@@ -31,7 +66,7 @@
         </div>
         <div class="category">
           <div class="row">
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
                   <img src="../svg/sausage.svg" alt="" class="responsive-img" />
@@ -41,47 +76,51 @@
                 </div>
               </div>
             </div>
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../svg/sausage.svg" alt="" class="responsive-img" />
+                  <img src="../svg/meat.svg" alt="" class="responsive-img" />
                 </div>
                 <div class="tb-card-content">
-                  <p>Sausage</p>
+                  <p>Meat</p>
                 </div>
               </div>
             </div>
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../svg/sausage.svg" alt="" class="responsive-img" />
+                  <img
+                    src="../svg/fried-chicken.svg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
-                  <p>Sausage</p>
+                  <p>Chicken</p>
                 </div>
               </div>
             </div>
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../svg/sausage.svg" alt="" class="responsive-img" />
+                  <img src="../svg/pig.svg" alt="" class="responsive-img" />
                 </div>
                 <div class="tb-card-content">
-                  <p>Sausage</p>
+                  <p>Pork</p>
                 </div>
               </div>
             </div>
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../svg/sausage.svg" alt="" class="responsive-img" />
+                  <img src="../svg/meal.svg" alt="" class="responsive-img" />
                 </div>
                 <div class="tb-card-content">
-                  <p>Sausage</p>
+                  <p>Rice</p>
                 </div>
               </div>
             </div>
-            <div class="col s6 m2">
+            <div class="col s6 m3 l2">
               <div class="tb-card">
                 <div class="tb-card-img">
                   <img src="../svg/sausage.svg" alt="" class="responsive-img" />
@@ -96,154 +135,136 @@
       </div>
     </section>
     <section id="menus">
-      <div class="container">
+      <div class="">
         <div class="tb-title">
           <h3>Available menus</h3>
         </div>
-        <div class="category">
+        <div class="">
           <div class="row">
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
+                  <img
+                    src="../img/barbecue-bbq-beef-brown-236887.jpg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Meat</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="order.html" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
+                  <img
+                    src="../img/fried-meat-on-white-plate-2338407.jpg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Chicken</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
+                  <img
+                    src="../img/cooked-sausage-929137.jpg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Sausage</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
+                  <img
+                    src="../img/close-up-photo-of-fried-meat-3655917.jpg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Pork</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
+                  <img
+                    src="../img/burrito-chicken-delicious-dinner-461198.jpg"
+                    alt=""
+                    class="responsive-img"
+                  />
                 </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Snacks</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col s6 m3">
+            <div class="col s12 m4 l3">
               <div class="tb-card">
                 <div class="tb-card-img">
                   <img src="../img/sausage.jpg" alt="" class="responsive-img" />
                 </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
-                </div>
                 <div class="tb-card-content">
+                  <div class="tb-card-title">
+                    <h4>Meat Pie</h4>
+                  </div>
                   <p>
                     Ghs 50
                   </p>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col s6 m3">
-              <div class="tb-card">
-                <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
-                </div>
-                <div class="tb-card-content">
-                  <p>
-                    Ghs 50
-                  </p>
-                  <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col s6 m3">
-              <div class="tb-card">
-                <div class="tb-card-img">
-                  <img src="../img/sausage.jpg" alt="" class="responsive-img" />
-                </div>
-                <div class="tb-card-title">
-                  <h4>Vegetable</h4>
-                </div>
-                <div class="tb-card-content">
-                  <p>
-                    Ghs 50
-                  </p>
-                  <a href="order.html" class="tb-btn modal-trigger">
-                    PLace Order <i class="fas fa-cart-plus"></i>
+                    Order <i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -252,7 +273,7 @@
           <!-- Modal Structure -->
           <div id="modal1" class="modal">
             <div class="modal-content">
-              <h4>Place Your Order</h4>
+              <h4>Your Order</h4>
               <div class="tb-card">
                 <div class="tb-card-img">
                   <img src="../img/sausage.jpg" alt="" class="responsive-img" />
@@ -280,7 +301,7 @@
                     <span id="cal_total">50</span>
                   </h4>
                   <a href="#modal1" class="tb-btn modal-trigger">
-                    PLace Order Now<i class="fas fa-cart-plus"></i>
+                    Order Now<i class="fas fa-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -300,6 +321,7 @@
     <script>
       $(document).ready(function () {
         $('.modal').modal();
+        $('.sidenav').sidenav();
       });
     </script>
     <script src="../js/index.js"></script>

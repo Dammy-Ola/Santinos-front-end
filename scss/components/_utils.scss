@@ -1,3 +1,4 @@
+@import 'colors';
 #tb-showcase {
   position: relative;
   height: 100vh;
@@ -39,6 +40,19 @@
   }
   .tb-showcase-content {
     z-index: 10;
+    h1 {
+      color: $primary-color;
+      font-size: 2.8rem;
+      margin: 0;
+      margin-bottom: 0.2rem;
+    }
+  }
+  .tb-btn {
+    color: $white;
+    background: $primary-color;
+    &:hover {
+      background: $secondary-color;
+    }
   }
 }
 
@@ -46,10 +60,9 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
+  background: $primary-color;
   border-radius: 5px;
-  border: solid #fff 1px;
   margin-top: 25px;
-  opacity: 0.7;
 }
 
 .tb-title {
@@ -86,9 +99,9 @@
   }
   .tb-btn {
     color: $white;
-    background: red;
+    background: $primary-color;
     &:hover {
-      background: blue;
+      background: $secondary-color;
     }
   }
 }

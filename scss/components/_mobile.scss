@@ -4,4 +4,25 @@
       font-size: 1.5rem;
     }
   }
+
+  #menus {
+    .tb-card {
+      // border: 5px solid green;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: space-between;
+      .tb-card-img {
+        width: 50%;
+        margin: auto;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+      .tb-card-content {
+        margin: 0 0 0 1rem;
+        flex: 2;
+      }
+    }
+  }
 }
