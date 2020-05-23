@@ -43,3 +43,94 @@ a {
     }
   }
 }
+
+#authenticate {
+  // background: $primary-color;
+  // border: 2px solid red;
+  text-align: center;
+  padding: 0 0 7rem 0;
+  margin: 0;
+  h1 {
+    color: $primary-color;
+    // display: none;
+  }
+  .social {
+    display: flex;
+    // align-items: center;
+    // flex-basis: 50px;
+    // a {
+    //   // margin: auto 0;
+    //   // align-items: center;
+    //   // display: inline-block;
+    // }
+    .google {
+      // display: inline-block;
+      padding: 0;
+      margin: 0;
+      // border: solid 2px red;
+      .social-link {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+        border: 1px solid #555555;
+        color: #000;
+        padding: 0.3rem 0;
+        margin: 1rem 2rem;
+        // display: block;
+        .social-img {
+          // border: solid 2px red;
+          display: inline;
+          padding: 0;
+          margin: 0;
+          width: 30%;
+        }
+        .social-media {
+          // border: 2px solid blue;
+          margin: auto 0;
+        }
+      }
+    }
+    .facebook {
+      // border: solid 2px green;
+      .social-link {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        background: #4267b2;
+        color: #ffffff;
+        padding: 0.3rem 0;
+        // border: 2px solid yellow;
+        margin: 1rem 2rem;
+        // display: block;
+        .social-img {
+          // border: solid 2px green;
+          display: inline;
+          padding: 0;
+          margin: 0;
+          width: 30%;
+        }
+        .social-media {
+          // border: 2px solid blue;
+          margin: auto 0;
+        }
+      }
+    }
+    img {
+      height: 2rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .authenticate-form {
+    background: $white;
+    border-radius: 5px;
+    padding: 2rem;
+    // margin: 0 auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // width: 80%;
+    // border: 2px solid red;
+  }
+}
