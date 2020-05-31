@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#!" class="brand-logo">Santinos</a>
+
+          <a
+            href="#"
+            data-target="slide-out"
+            class="sidenav-trigger show-on-large right"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">About</a></li>
+            <li><a href="collapsible.html">Menus</a></li>
+            <li><a href="mobile.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img
+              src="../../img/close-up-photography-of-leaves-with-droplets-807598.jpg"
+            />
+          </div>
+          <a href="#user"
+            ><img
+              class="circle"
+              src="../../img/adult-beard-boy-casual-220453.jpg"
+          /></a>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"
+            ><span class="white-text email">jdandturk@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"
+      ><i class="material-icons">menu</i></a
+    > -->
+    <section id="dashboard">
+      <div class="dasboard-info">
+        <div class="row">
+          <div class="col s12 m3">
+            <div class="tb-card">
+              <i class="material-icons medium">mode_edit</i>
+              <h5>Orders</h5>
+              <h3 class="count">105</h3>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="tb-card">
+              <i class="material-icons medium">mode_edit</i>
+              <h5>Products</h5>
+              <h3 class="count">105</h3>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="tb-card">
+              <i class="material-icons medium">mode_edit</i>
+              <h5>Customers</h5>
+              <h3 class="count">105</h3>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="tb-card">
+              <i class="material-icons medium">mode_edit</i>
+              <h5>Users</h5>
+              <h3 class="count">105</h3>
+            </div>
+          </div>
+          <!-- <div class="col s12 m3">
+            <div class="tb-card">
+              <i class="material-icons medium">mode_edit</i>
+              <h5>Staffs</h5>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <section id="overview">
+        <div class="row">
+          <div class="col s12 l8 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Recent Posts</span>
+                <table class="striped">
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>Category</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Post One</td>
+                      <td>Web Development</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2"
+                          >Details</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Post Two</td>
+                      <td>Graphic Design</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2"
+                          >Details</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Post Three</td>
+                      <td>Web Development</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2"
+                          >Details</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Quick Todos</span>
+                <form id="todo-form">
+                  <div class="input-field">
+                    <input id="todo" type="text" placeholder="Add Todo..." />
+                  </div>
+                </form>
+                <ul class="collection todos">
+                  <li class="collection-item">
+                    <div>
+                      Todo One
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">close</i>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div>
+                      Todo Two
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">close</i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FIED -->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">add</i>
+        </a>
+        <ul>
+          <li>
+            <a href="#post-modal" class="btn-floating red modal-trigger"
+              ><i class="material-icons">insert_chart</i></a
+            >
+          </li>
+          <li>
+            <a
+              href="#category-modal"
+              class="btn-floating yellow darken-1 modal-trigger"
+              ><i class="material-icons">format_quote</i></a
+            >
+          </li>
+          <li>
+            <a class="btn-floating green"
+              ><i class="material-icons">publish</i></a
+            >
+          </li>
+          <li>
+            <a class="btn-floating blue"
+              ><i class="material-icons">attach_file</i></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add Post Modal -->
+      <div id="post-modal" class="modal">
+        <div class="modal-content">
+          <h4>Add Post</h4>
+          <form>
+            <div class="input-field">
+              <input type="text" id="title" />
+              <label for="title">Title</label>
+            </div>
+            <div class="input-field">
+              <select>
+                <option value="" disabled selected>Select option</option>
+                <option value="1">Web Development</option>
+                <option value="2">Graphic Design</option>
+                <option value="3">Tech Gadgets</option>
+                <option value="4">Other</option>
+              </select>
+              <label>Category</label>
+            </div>
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" />
+              </div>
+              <div class="file-path-wrapper">
+                <input
+                  class="file-path validate"
+                  type="text"
+                  placeholder="Upload one or more files"
+                />
+              </div>
+            </div>
+            <div class="input-field">
+              <textarea
+                name="body"
+                id="body"
+                class="materialize-textarea"
+              ></textarea>
+              <label for="body">Body</label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn blue white-text"
+              >Submit</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Add Category Modal -->
+      <div id="category-modal" class="modal">
+        <div class="modal-content">
+          <h4>Add Category</h4>
+          <form>
+            <div class="input-field">
+              <input type="text" id="title" />
+              <label for="title">Title</label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn blue white-text"
+              >Submit</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Add User Modal -->
+      <div id="user-modal" class="modal">
+        <div class="modal-content">
+          <h4>Add User</h4>
+          <form>
+            <div class="input-field">
+              <input type="text" id="name" />
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="password" />
+              <label for="password">Password</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="password2" />
+              <label for="password2">Confirm Password</label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn blue white-text"
+              >Submit</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.modal').modal();
+        $('.sidenav').sidenav();
+        $('.fixed-action-btn').floatingActionButton();
+        $('select').formSelect();
+        CKEDITOR.replace('body');
+      });
+    </script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

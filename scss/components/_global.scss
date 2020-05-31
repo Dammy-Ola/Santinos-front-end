@@ -138,3 +138,53 @@ a {
 .thanks {
   height: 10rem;
 }
+
+// header,
+// main,
+// footer {
+//   padding-left: 300px;
+// }
+
+// @media only screen and (max-width: 992px) {
+//   header,
+//   main,
+//   footer {
+//     padding-left: 0;
+//   }
+// }
+
+#dashboard {
+  padding-top: 20px;
+}
+
+.sidenav {
+  background: $primary-color;
+  color: #ffffff !important;
+  a {
+    color: #ffffff !important;
+  }
+}
+
+.dasboard-info {
+  .tb-card {
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  .col:nth-child(even) {
+    .tb-card {
+      color: $white;
+      background: $secondary-color;
+    }
+  }
+  .col:nth-child(odd) {
+    .tb-card {
+      color: $white;
+      background: $primary-color;
+    }
+  }
+}
+
+#overview {
+  padding: 2rem;
+  background: $tertiary-color;
+}
